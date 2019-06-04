@@ -1,0 +1,13 @@
+$(document).ready(function() {
+
+
+  $("button#mewo").click(function() {
+    $("ul").prepend("<li>Mewo</li>");
+  });
+
+  $("button#puf").click(function() {
+    $("ul").prepend("<li>Puf</li>");
+  });
+
+
+});
